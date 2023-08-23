@@ -1,0 +1,33 @@
+header {
+    background-color:darkorchid;
+    text-align: center;
+    padding:30px;
+    font-style: italic;
+    font-size: 40px;
+}
+
+nav {
+    background-color:bisque;
+    text-align: center;
+    padding:10px;
+    font-size:20px;
+    margin: 8px 0px;
+}
+
+section {
+    color: aliceblue;
+    font-weight:bold;
+    font-size:23px;
+
+}
+
+aside {
+    color:aliceblue;
+    font-size:20px;
+    font-style: oblique;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/ff/c8/e9/ffc8e91481fc4886c47b80a3b507e8b2.jpg");
+    background-position: top left;
+}
