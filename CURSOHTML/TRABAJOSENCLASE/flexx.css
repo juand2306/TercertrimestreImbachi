@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    flex-direction:row;
+    background-color: darkorchid;
+    width: 600px;
+    height: 600px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.sec1{
+    background-color: bisque;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.sec2{
+    background-color: bisque;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.sec3{
+    background-color: bisque;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    border: 2px solid black;
+}
