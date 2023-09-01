@@ -7,8 +7,89 @@
     <link rel="stylesheet" href="portafolio.css">
 </head>
 <body>
-    <main class="princi">
-        <section> Yo</section>
-    </main>
+    <nav class="navbar">
+        <!-- <div class="logos">
+            <img class="logW" src="https://i.blogs.es/c429db/whatsapp/840_560.jpg" alt="Whatsapp">
+            <img class="logG" src="https://static.vecteezy.com/system/resources/previews/021/515/060/original/google-gmail-logo-symbol-white-design-illustration-with-black-background-free-vector.jpg" alt="gmail">
+        </div> -->
+        <div class="contenedor">
+            <h1>Mi Portafolio</h1>
+            <ul class="links">
+                <li class="bns"><a class="a" href="#presentacion">Inicio</a></li>
+                <li class="bns"><a class="a" href="#yo">Sobre Mí</a></li>
+                <li class="bns"><a class="a" href="#proyectos">Proyectos</a></li>
+                <li class="bns"><a class="a" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="presentacion" class="present">
+        <div class="contenedor">
+            <h2>Hola, Soy Juan Diego Imbachi </h2>
+            <p>Yo soy un futuro Desarrollador Web</p>
+        </div>
+    </header>
+
+    <section id="yo" class="infomia">
+        <div class="contenedor">
+            <h2>Sobre Mí</h2>
+            <p>Bienvenido a mi portafolio Soy Juan Diego Imbachi</p>
+            <p>Soy un desarrollador web con experiencia en python, en HTML y CSS, 
+            tengo conociemiento desarrollados en bases de datos SQL con manejo en MariaDB</p>
+            <br>
+            <h3>Herramientas</h3>
+            <p>En la actualidad manejo Herramientas funcionales para metodologias agiles 
+                como lo son git y gitHub</p>
+        </div>
+    </section>
+    
+    <section id="proyectos" class="projects">
+        <div class="contenedor">
+            <h2>Proyectos</h2>
+            <!-- información sobre proyectos -->
+            <h3>Muchos futuros proyectos :3</h3>
+        </div>
+    </section>
+    
+    <section id="contacto" class="contact">
+        <div class="contenedor">
+            <h2>Contacto</h2>
+            <h3>¡Contactame!</h3>
+            <span>Puedes contactarme a travez de mi correo en:</span>
+            <span class="correo">juandiegoimbachihoyos@gmail.com</span><br><br>
+            <span>Puedes contactarme en whatsApp a travez de:</span>
+            <span class="whp"> 
+                <a href="https://wa.me/573203157252?text=Hola,%20v%C3%AD%20tu%20portafolio%20y%20me%20llamo%20mucho%20la%20atenci%C3%B3n">whatsApp</a>
+            </span>
+
+        <div class="container">
+            <h2 class="tt">¡Dejame saber quien eres si estas interesado!</h2>
+            <h3>Deja tus datos</h3>
+            <form id="data-form">
+                <label for="nombre">Nombre completo:</label>
+                <input class="inputs" type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo electrónico:</label>
+                <input class="inputs" type="email" id="correo" name="correo" required>
+                
+                <label for="telefono">Número telefónico:</label>
+                <input class="inputs" type="tel" id="telefono" name="telefono" required>
+                
+                <button class="boton1" type="submit">Enviar</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="fotcontac">
+            <h4>¡Contactame!</h4>
+            <p>juandiegoimbachihoyos@gmail.com</p>
+            <p><a href="https://wa.me/573203157252?text=Hola,%20v%C3%AD%20tu%20portafolio%20y%20me%20llamo%20mucho%20la%20atenci%C3%B3n"> Whatsapp</a></p>
+        </div>
+        <div class="botones">
+            <a href="https://wa.me/573203157252?text=Hola,%20v%C3%AD%20tu%20portafolio%20y%20me%20llamo%20mucho%20la%20atenci%C3%B3n"><img src="https://i.blogs.es/c429db/whatsapp/840_560.jpg" alt="whatsap"></a>
+            <a href=""><img src="https://static.vecteezy.com/system/resources/previews/021/515/060/original/google-gmail-logo-symbol-white-design-illustration-with-black-background-free-vector.jpg" alt="gmail"></a>
+        </div>
+    </footer>
 </body>
 </html>

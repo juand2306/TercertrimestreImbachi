@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Portafolio</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+		
+		nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #333;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		
+		nav a {
+			color: white;
+			text-decoration: none;
+			margin-right: 10px;
+		}
+		
+		nav a:hover {
+			color: #f1c40f;
+		}
+		
+		h1 {
+			color: #f1c40f;
+			text-align: center;
+			margin-top: 100px;
+		}
+		
+		p {
+			margin-top: 50px;
+			font-size: 20px;
+			line-height: 1.5em;
+		}
+		
+		div {
+			margin-top: 50px;
+			padding: 20px;
+			background-color: rgba(255,255,255,0.2);
+			border-radius: 10px;
+		}
+		
+		h2 {
+			color: #f1c40f;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		
+		h3 {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+            margin-top : 50px
+        }
+        
+        .multicolor{
+            background-image : linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+        
+        .container{
+            margin : auto
+            width : 80%
+        }
+        
+        .row{
+            display : flex
+            justify-content : space-between
+        }
+        
+        .col{
+            width : calc(33.33% - 20px)
+            margin-right : 20px
+        }
+        
+        .col:last-child{
+            margin-right : 0
+        }
+        
+        .col h3{
+            color : #f1c40f
+            font-size : 24px
+            margin-bottom : 20px
+        }
+        
+        .col p{
+            font-size : 18px
+            line-height : 1.5em
+        }
+        
+        .col img{
+            max-width : 100%
+            height : auto
+            display : block
+            margin-left : auto
+            margin-right : auto
+            margin-top : 50px
+        }
+        
+    </style>
+</head>
+<body>
+	
+    <nav>
+    	<a href="#">Inicio</a>
+    	<a href="#">Acerca de mí</a>
+    	<a href="#">Proyectos</a>
+    	<a href="#">Contacto</a>
+    </nav>
+
+    <h1>Mi Portafolio</h1>
+
+    <div class="multicolor container">
+    	<div class="row">
+    		<div class="col">
+    			<h3>Sobre mí</h3>
+    			<p>¡Hola! Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me encanta crear sitios web hermosos y funcionales que ayuden a las personas a lograr sus objetivos en línea.</p>
+    		</div>
+
+    		<div class="col">
+    			<h3>Proyectos</h3>
+    			<p>Aquí hay algunos de mis proyectos más recientes:</p>
+
+    			<ul>
+    				<li><a href="#">Proyecto A</a></li>
+    				<li><a href="#">Proyecto B</a></li>
+    				<li><a href="#">Proyecto C</a></li>
+    			</ul>
+    		</div>
+
+    		<div class="col">
+    			<h3>Contacto</h3>
+
+    			<form action="#">
+    				Nombre:<br>
+    				<input type="text" name="nombre"><br><br>
+
+    				Correo electrónico:<br>
+    				<input type="email" name="correo"><br><br>
+
+    				Mensaje:<br>
+    				<textarea name="mensaje"></textarea><br><br>
+
+    				<input type="submit" value="Enviar">
+    			</form>
+    	   </div>
+
+     </div> <!-- row -->
+    </div> <!-- container -->
+
+    <img src="https://i.imgur.com/7zJ6l9L.jpg" alt="Imagen de fondo">
+
+</body>
+</html>
+

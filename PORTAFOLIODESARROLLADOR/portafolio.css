@@ -1,5 +1,153 @@
 body{
     background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    padding: 0;
 }
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bns{
+    display: inline;
+    margin-right: 20px;
+}
+
+.a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.present{
+    background-color: #111;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.infomia {
+    padding: 80px 0;
+}
+
+.projects {
+    padding: 80px 0;
+}
+
+.contact {
+    padding: 80px 0;
+}
+
+.correo{
+    color: aqua;
+}
+
+.whp{
+    color: aqua;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tt{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.inputs{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.boton1{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #111;
+    padding: 20px;
+    justify-content:space-between;
+
+}
+
+.fotcontac{
+    text-align: left;
+    flex: 1;
+}
+
+.botones{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+.botones a{
+    margin-left: 10px;
+}
+
+.botones img{
+    width: 60px;
+    height: 50px;
+    /* border-radius: 50%; */
+    /* border: 2px solid #ccc; */
+    cursor: pointer;
+}
+
 
 
