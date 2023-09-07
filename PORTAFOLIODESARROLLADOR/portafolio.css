@@ -35,6 +35,17 @@ body{
     z-index: 1000;
 }
 
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #20B26A;
+}
+
+
 .navbar h1 {
     margin: 0;
 }
@@ -88,11 +99,11 @@ body{
 }
 
 .correo{
-    color: aqua;
+    color: #20B26A;
 }
 
 .whp{
-    color: aqua;
+    color: #20B26A;
 }
 
 .container {
@@ -126,18 +137,55 @@ label {
     border-radius: 4px;
 }
 
-.boton1{
+/* .boton1{
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color:#20B26A;
     color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
+} */
 
-button:hover {
-    background-color: #0056b3;
+/* button:hover {
+    background-color: #00E76E;
+} */
+
+.boton1 {
+  background: black; /* color de fondo */
+  color: #20B26A; /* color de fuente */
+  border: 2px solid #20B26A; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.boton1:hover {
+  color: black; /* color de fuente hover */
+}
+.boton1::after {
+  content: "";
+  background: #20B26A; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: -100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.boton1:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 .footer {
@@ -167,8 +215,25 @@ button:hover {
 .botones img{
     width: 60px;
     height: 50px;
-    /* border-radius: 50%; */
+    border-radius: 50%; 
     /* border: 2px solid #ccc; */
     cursor: pointer;
 }
+
+.whatsapp {
+    z-index: 9999;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+
+.linea{
+    width: calc(100% - 80px) ;
+    height: 1px; 
+    background-color: #fff; 
+    position: relative;
+    left: 40px;
+    bottom: 0;
+}
+
 
