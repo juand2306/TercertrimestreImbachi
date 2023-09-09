@@ -1,0 +1,72 @@
+.contenedor{
+    border: 2px solid #36761C;
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulo{
+    background-color: #36761C;
+    text-align: center;
+    padding: 8px;
+}
+
+.titulo h1{
+    margin: 0;
+    font-size: 35px;
+}
+
+/* Estiliza el formulario y divide en dos columnas */
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.columna {
+    /* flex: 0 0 calc(50% - 20px); */
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.columna:last-child {
+    margin-right: 0;
+}
+
+.boton-verde {
+    background-color: #36761C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+
+.boton-verde:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.boton-centrado {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-right: 50px;
+    font-size: 22px;
+}
+
+input,select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}

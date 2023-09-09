@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CargarHojadeVida</title>
+    <link rel="stylesheet" href="CargarHojadeVida.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="titulo">  
+            <span class="tt">Cargar Hoja de vida</span>
+        </div>
+        <section class="archivo">
+            <img class="subirarchivo" src="https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-file-upload-icon-image_1344464.jpg" alt="subirarchivo">
+            <form class="formS" action="procesar.php" method="post" enctype="multipart/form-data">
+                <label for="cv">Selecciona tu hoja de vida:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf">
+            </form>
+        </section>
+        <div class="subir">
+            <input class="botonn" type="submit" value="Subir hoja de vida">
+        </div>    
+    </section>
+</body>
+</html>
